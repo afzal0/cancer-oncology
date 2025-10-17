@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dataset of Integrative Oncology and Wellness Services in Major Australian Cities">
+    <meta name="keywords" content="integrative oncology, supportive care, survivorship, complementary therapies, Australia, open data">
+    <title>Integrative Oncology Services Dataset - Australian Cities</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Integrative Oncology Services Dataset</h1>
+                <ul class="nav-links">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#data">Data</a></li>
+                    <li><a href="#documentation">Documentation</a></li>
+                    <li><a href="#citation">Citation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Dataset of Integrative Oncology and Wellness Services in Major Australian Cities</h2>
+                <p class="subtitle">A Comprehensive Mapping of Public and NGO-Based Support Services with Emphasis on Group-Based Programs</p>
+                <div class="hero-buttons">
+                    <a href="#data" class="btn btn-primary">Access Data</a>
+                    <a href="docs/documentation.html" class="btn btn-secondary">Documentation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="overview" class="section">
+            <div class="container">
+                <h2>Overview</h2>
+                <p>This data article presents a curated dataset of 185 integrative oncology and wellness services available across seven Australian metropolitan areas (Melbourne, Sydney, Perth, Darwin, Hobart, Brisbane, and Adelaide).</p>
+
+                <div class="highlights">
+                    <div class="highlight-card">
+                        <h3>185</h3>
+                        <p>Services Mapped</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>7</h3>
+                        <p>Australian Cities</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>13</h3>
+                        <p>Data Fields</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>2025</h3>
+                        <p>Verification Date</p>
+                    </div>
+                </div>
+
+                <h3>Value of the Data</h3>
+                <ul class="value-list">
+                    <li><strong>Standardized Registry:</strong> Provides a single, standardized registry of publicly provided integrative oncology services across seven Australian cities, including fields for provider type, eligibility, and cost that are often missing from disparate listings.</li>
+                    <li><strong>Group-Program Focus:</strong> Supplies group-program identifiers (e.g., yoga, meditation, exercise, support groups) to facilitate reproducible service audits of evidence-informed modalities referenced in international guidance.</li>
+                    <li><strong>Verification Status:</strong> Documents verification status through verification notes, enabling transparent reuse and quality appraisal.</li>
+                </ul>
+
+                <h3>Coverage by City</h3>
+                <ul class="city-list">
+                    <li>Sydney: 35 records</li>
+                    <li>Melbourne: 33 records</li>
+                    <li>Perth: 28 records</li>
+                    <li>Brisbane: 27 records</li>
+                    <li>Adelaide: 25 records</li>
+                    <li>Hobart: 21 records</li>
+                    <li>Darwin: 16 records</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="data" class="section section-alt">
+            <div class="container">
+                <h2>Data Access</h2>
+                <p>The dataset is freely available for research, planning, and clinical use under an open data license.</p>
+
+                <div class="data-download">
+                    <div class="download-card">
+                        <h3>CSV Format</h3>
+                        <p>Cleaned, standardized data in comma-separated values format</p>
+                        <a href="data/integrative_oncology_services.csv" class="btn btn-download" download>Download CSV</a>
+                    </div>
+                    <div class="download-card">
+                        <h3>Excel Format</h3>
+                        <p>Original multi-sheet Excel workbook with city-level datasets</p>
+                        <a href="Data_final_cleaned.xlsx" class="btn btn-download" download>Download Excel</a>
+                    </div>
+                </div>
+
+                <h3>Data Structure</h3>
+                <p>Each record includes the following standardized fields:</p>
+                <ul class="data-fields">
+                    <li><strong>Name:</strong> Service name</li>
+                    <li><strong>Organization:</strong> Parent organization</li>
+                    <li><strong>Provider Type:</strong> Public hospital, NGO, university, council, etc.</li>
+                    <li><strong>Facility Type:</strong> Category of facility</li>
+                    <li><strong>Address, Suburb, Postcode:</strong> Geographic location</li>
+                    <li><strong>Phone, Website:</strong> Contact information</li>
+                    <li><strong>group_services_standardized:</strong> Controlled terms for group programs (yoga, meditation, exercise, support groups, etc.)</li>
+                    <li><strong>individual_services_standardized:</strong> One-on-one services (massage, acupuncture, psychology, etc.)</li>
+                    <li><strong>associated_services_standardized:</strong> Additional support services (social work, spiritual care)</li>
+                    <li><strong>Verification Notes:</strong> Quality assurance documentation (as of Oct 2025)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="documentation" class="section">
+            <div class="container">
+                <h2>Documentation</h2>
+                <p>Comprehensive documentation is available to support data reuse and understanding.</p>
+
+                <div class="doc-links">
+                    <a href="docs/documentation.html" class="doc-card">
+                        <h3>Data Dictionary</h3>
+                        <p>Complete field definitions and controlled vocabularies</p>
+                    </a>
+                    <a href="docs/methodology.html" class="doc-card">
+                        <h3>Methodology</h3>
+                        <p>Data collection protocol and verification procedures</p>
+                    </a>
+                    <a href="docs/limitations.html" class="doc-card">
+                        <h3>Limitations</h3>
+                        <p>Known constraints and future update plans</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="citation" class="section section-alt">
+            <div class="container">
+                <h2>Citation</h2>
+                <p>If you use this dataset in your research or practice, please cite:</p>
+                <div class="citation-box">
+                    <p>Khan, M.A., Adhinugraha, K.M., Phan, A., Lyu, S., Manger, S., Phan, T., & Taniar, D. (2025). Dataset of Integrative Oncology and Wellness Services in Major Australian Cities: A Comprehensive Mapping of Public and NGO-Based Support Services with Emphasis on Group-Based Programs. <em>Data in Brief</em>.</p>
+                </div>
+
+                <h3>Authors</h3>
+                <ul class="author-list">
+                    <li>Mohammad Afzal Khan<sup>1</sup></li>
+                    <li>Kiki Maulana Adhinugraha<sup>2</sup></li>
+                    <li>Albert Phan</li>
+                    <li>Shiyang Lyu<sup>1</sup></li>
+                    <li>Sam Manger<sup>3</sup></li>
+                    <li>Thanh Phan</li>
+                    <li>David Taniar<sup>1</sup></li>
+                </ul>
+                <p class="affiliations">
+                    <sup>1</sup>Faculty of Information Technology, Monash University, Melbourne, Australia<br>
+                    <sup>2</sup>School of Computing and Information Technology, La Trobe University, Melbourne, Australia<br>
+                    <sup>3</sup>College of Medicine and Dentistry, James Cook University, Queensland, Australia
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>For questions or feedback about this dataset, please contact:</p>
+                <p class="contact-info">
+                    <strong>Corresponding Author:</strong> David Taniar<br>
+                    <strong>Email:</strong> <a href="mailto:David.taniar@monash.edu">David.taniar@monash.edu</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Integrative Oncology Services Dataset. Released under open data license.</p>
+            <p>Data collected August 2025, verified October 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

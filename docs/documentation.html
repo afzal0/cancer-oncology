@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Documentation - Integrative Oncology Services Dataset</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .doc-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: white;
+            box-shadow: var(--shadow);
+        }
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        tr:hover {
+            background-color: var(--bg-light);
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        .section-doc {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Integrative Oncology Services Dataset</h1>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#data">Data</a></li>
+                    <li><a href="documentation.html">Documentation</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="doc-container">
+        <a href="../index.html" class="back-link">&larr; Back to Home</a>
+
+        <h1>Data Documentation</h1>
+        <p>This page provides comprehensive documentation for the Integrative Oncology Services Dataset, including field definitions, controlled vocabularies, and usage guidelines.</p>
+
+        <div class="section-doc">
+            <h2>Data Dictionary</h2>
+            <p>The dataset contains 13 standardized fields per record. Below is the complete data dictionary:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field Name</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">Name</span></td>
+                        <td>Text</td>
+                        <td>Official name of the service or program</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Organization</span></td>
+                        <td>Text</td>
+                        <td>Parent organization or institution providing the service</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Provider Type</span></td>
+                        <td>Categorical</td>
+                        <td>Classification of provider (Public Hospital, NGO/Charity, University, Government, Council, Other)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Facility Type</span></td>
+                        <td>Categorical</td>
+                        <td>Type of facility where services are delivered</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Address</span></td>
+                        <td>Text</td>
+                        <td>Street address of the service location</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Suburb</span></td>
+                        <td>Text</td>
+                        <td>Suburb or locality name</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Postcode</span></td>
+                        <td>Numeric</td>
+                        <td>Australian postcode</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Phone</span></td>
+                        <td>Text</td>
+                        <td>Primary contact phone number</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Website</span></td>
+                        <td>URL</td>
+                        <td>Official website or program information page</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">group_services_standardized</span></td>
+                        <td>Text (controlled)</td>
+                        <td>Standardized group-based services offered (yoga, meditation/mindfulness, exercise, support_group, qi_gong/tai_chi, art_therapy, music_therapy, education)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">individual_services_standardized</span></td>
+                        <td>Text (controlled)</td>
+                        <td>One-on-one services (oncology massage, lymphoedema therapy, acupuncture, psychology, dietetics, etc.)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">associated_services_standardized</span></td>
+                        <td>Text (controlled)</td>
+                        <td>Additional support services (social work, spiritual care, etc.)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Verification Notes (as of Oct 2025)</span></td>
+                        <td>Text</td>
+                        <td>Quality assurance notes documenting verification status and any relevant context</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section-doc">
+            <h2>Controlled Vocabularies</h2>
+
+            <h3>Provider Type</h3>
+            <ul>
+                <li><strong>Public Hospital:</strong> Government-funded tertiary or secondary hospitals</li>
+                <li><strong>NGO/Charity:</strong> Non-profit organizations and charitable foundations</li>
+                <li><strong>University:</strong> University-affiliated services and research programs</li>
+                <li><strong>Government:</strong> State or federal government services</li>
+                <li><strong>Council:</strong> Local council-funded programs</li>
+                <li><strong>Other:</strong> Hybrid or unique models</li>
+            </ul>
+
+            <h3>Group Services (Standardized Terms)</h3>
+            <ul>
+                <li><strong>exercise:</strong> Structured physical activity programs (e.g., walking groups, strength training)</li>
+                <li><strong>yoga:</strong> Yoga classes adapted for cancer patients</li>
+                <li><strong>meditation/mindfulness:</strong> Meditation, mindfulness-based stress reduction (MBSR), or relaxation programs</li>
+                <li><strong>support_group:</strong> Peer support groups, discussion groups, or survivor networks</li>
+                <li><strong>qi_gong/tai_chi:</strong> Traditional Chinese movement practices</li>
+                <li><strong>art_therapy:</strong> Creative arts programs for therapeutic purposes</li>
+                <li><strong>music_therapy:</strong> Music-based therapeutic interventions</li>
+                <li><strong>education:</strong> Educational workshops or seminars on cancer-related topics</li>
+            </ul>
+
+            <h3>Individual Services (Examples)</h3>
+            <ul>
+                <li><strong>oncology_massage:</strong> Specialized massage therapy for cancer patients</li>
+                <li><strong>lymphoedema_therapy:</strong> Treatment for lymphedema</li>
+                <li><strong>acupuncture:</strong> Traditional acupuncture services</li>
+                <li><strong>psychology:</strong> Individual counseling or psychotherapy</li>
+                <li><strong>dietetics:</strong> Nutritional counseling and support</li>
+            </ul>
+        </div>
+
+        <div class="section-doc">
+            <h2>Data Collection Methodology</h2>
+
+            <h3>Scope and Inclusion Criteria</h3>
+            <p>Metropolitan boundaries followed Australian Bureau of Statistics Greater Capital City Statistical Areas where applicable. Services were included if they met the following criteria:</p>
+            <ul>
+                <li>Designed for cancer patients, survivors, or caregivers</li>
+                <li>Offer evidence-informed complementary or supportive activities</li>
+                <li>Publicly accessible (public hospital, NGO, or council-provided)</li>
+                <li>Active in August 2025</li>
+                <li>Sufficient public information to populate required fields</li>
+            </ul>
+
+            <h3>Search Strategy</h3>
+            <p>Multi-pronged approach including:</p>
+            <ol>
+                <li>Structured web queries combining city and service terms</li>
+                <li>Targeted hospital/NGO/council website navigation</li>
+                <li>Professional directories and registries</li>
+                <li>Direct verification in October 2025</li>
+            </ol>
+
+            <h3>Data Extraction and Standardization</h3>
+            <p>Two researchers independently extracted fields using a standardized form. Discrepancies were reconciled by consensus or provider confirmation. Controlled vocabularies were applied consistently across all records.</p>
+
+            <h3>Verification and Quality Control</h3>
+            <ul>
+                <li>All records verified as of October 2025</li>
+                <li>Duplicate detection and removal</li>
+                <li>Internal consistency checks (provider type vs. facility type)</li>
+                <li>External cross-validation with Cancer Council and institutional pages</li>
+            </ul>
+        </div>
+
+        <div class="section-doc">
+            <h2>Usage Guidelines</h2>
+
+            <h3>Recommended Use Cases</h3>
+            <ul>
+                <li>Service mapping and gap analysis</li>
+                <li>Health services research</li>
+                <li>Clinical pathway development</li>
+                <li>Patient resource directories</li>
+                <li>Comparative effectiveness studies</li>
+                <li>Policy and planning activities</li>
+            </ul>
+
+            <h3>Data Format</h3>
+            <p>The dataset is available in two formats:</p>
+            <ul>
+                <li><strong>CSV:</strong> Single flat file suitable for analysis in R, Python, or statistical software</li>
+                <li><strong>Excel:</strong> Multi-sheet workbook with city-level organization</li>
+            </ul>
+
+            <h3>Reusability Notes</h3>
+            <ul>
+                <li>The schema supports longitudinal updates via stable service names and URLs</li>
+                <li>Controlled vocabularies enable harmonization with future datasets</li>
+                <li>Geographic fields support mapping and spatial analysis</li>
+                <li>Verification notes provide transparency for quality assessment</li>
+            </ul>
+        </div>
+
+        <div class="section-doc">
+            <h2>Limitations</h2>
+            <p>The dataset includes 185 verified services as of October 2025. Some fields described in the protocol could not be consistently obtained during data collection and are reserved for future updates:</p>
+            <ul>
+                <li>Eligibility criteria (not consistently available)</li>
+                <li>Operating hours (variable and frequently changing)</li>
+                <li>Cost structure (often case-dependent or unclear)</li>
+            </ul>
+            <p>Users should verify current service availability and details directly with providers before making referrals or recommendations.</p>
+        </div>
+
+        <div class="section-doc">
+            <h2>Updates and Contributions</h2>
+            <p>This dataset represents a point-in-time snapshot (August-October 2025). We welcome:</p>
+            <ul>
+                <li>Reports of service changes or closures</li>
+                <li>New service submissions</li>
+                <li>Data quality feedback</li>
+                <li>Suggestions for additional fields or features</li>
+            </ul>
+            <p>Please contact the corresponding author to contribute updates or corrections.</p>
+        </div>
+
+        <a href="../index.html" class="btn btn-primary" style="margin-top: 2rem;">Return to Home</a>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Integrative Oncology Services Dataset. Released under open data license.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# GitHub Pages Configuration
+
+title: Integrative Oncology Services Dataset
+description: A Comprehensive Mapping of Public and NGO-Based Support Services in Major Australian Cities
+author: Mohammad Afzal Khan et al.
+email: David.taniar@monash.edu
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
