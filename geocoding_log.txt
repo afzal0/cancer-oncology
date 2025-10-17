@@ -1,0 +1,848 @@
+🗺️  Geocoding ALL Australian Integrative Oncology Services
+======================================================================
+Source: Data_final_cleaned.xlsx (7 cities, 185 services)
+======================================================================
+
+1. Loading data from all city sheets...
+   ✓ Adelaid_clean: 25 records
+   ✓ Hobart_clean: 21 records
+   ✓ Melbourne_clean: 33 records
+   ✓ Sydney_clean: 35 records
+   ✓ Brisbane_clean: 27 records
+   ✓ Perth_clean: 28 records
+   ✓ Darwin_clean: 16 records
+
+   📊 Total services loaded: 185
+
+2. Initializing geocoder...
+   ✓ Nominatim geocoder ready
+
+3. Geocoding 185 services...
+   ⏱️  Estimated time: ~3.7 minutes
+   (Respecting 1 request/second rate limit)
+
+   [1/185] Adelaid - Cancer Services (Royal Adelaide Hospital)
+       📍 Port Road, Adelaide, SA, 5000, Australia
+       ✓ (-34.908463, 138.576481)
+
+   [2/185] Adelaid - Youth Cancer Service SA/NT
+       📍 Multiple locations, Adelaide, SA, 5000, Australia
+       ✗ Failed
+
+   [3/185] Adelaid - Flinders Medical Centre Cancer Services
+       📍 Flinders Drive, Bedford Park, SA, 5042, Australia
+       ✓ (-35.020584, 138.567596)
+
+   [4/185] Adelaid - Flinders Cancer Wellness Centre
+       📍 Ground Floor FCIC Flinders Drive, Bedford Park, SA, 5042, Australia
+       ✗ Failed
+
+   [5/185] Adelaid - Michael Rice Centre for Haematology/Oncology
+       📍 72 King William Road, North Adelaide, SA, 5006, Australia
+       ✓ (-34.909671, 138.597281)
+
+   [6/185] Adelaid - Queen Elizabeth Hospital Cancer Services
+       📍 28 Woodville Road, Woodville South, SA, 5011, Australia
+       ✓ (-34.881161, 138.534766)
+
+   [7/185] Adelaid - Northern Adelaide Cancer Centre
+       📍 Haydown Road, Elizabeth Vale, SA, 5112, Australia
+       ✓ (-34.748766, 138.666673)
+
+   [8/185] Adelaid - Cancer Council SA
+       📍 202 Greenhill Road, Eastwood, SA, 5063, Australia
+       ✓ (-34.940691, 138.618282)
+
+   [9/185] Adelaid - Cancer Council Greenhill Lodge
+       📍 202 Greenhill Road, Eastwood, SA, 5063, Australia
+       ✓ (-34.940691, 138.618282)
+
+   [10/185] Adelaid - Leukaemia Foundation SA
+       📍 39 Folland Avenue, Northfield, SA, 5085, Australia
+       ✓ (-34.858266, 138.626738)
+
+   [11/185] Adelaid - Bridgestone Australia Blood Cancer Centre
+       📍 39 Folland Avenue, Northfield, SA, 5085, Australia
+       ✓ (-34.858266, 138.626738)
+
+   [12/185] Adelaid - CanTeen SA
+       📍 Adelaide, Adelaide, SA, 5000, Australia
+       ✓ (-34.928181, 138.599931)
+
+   [13/185] Adelaid - Camp Quality SA
+       📍 Adelaide, Adelaide, SA, 5000, Australia
+       ✓ (-34.928181, 138.599931)
+
+   [14/185] Adelaid - Redkite SA
+       📍 National service, Adelaide, SA, 5000, Australia
+       ✗ Failed
+
+   [15/185] Adelaid - Under Our Roof Accommodation
+       📍 Woodville West & Bowden, Adelaide, SA, 5000, Australia
+       ✗ Failed
+
+   [16/185] Adelaid - UniSA Psychology Clinic
+       📍 Cnr St Bernards Rd & Brougham St, Magill, SA, 5072, Australia
+       ✗ Failed
+
+   [17/185] Adelaid - Flinders University Psychology Clinic
+       📍 Social Sciences North Building, Bedford Park, SA, 5042, Australia
+       ✗ Failed
+
+   [18/185] Adelaid - Adelaide Breast Cancer Friendship Group
+       📍 Adelaide metropolitan, Adelaide, SA, 5000, Australia
+       ✓ (-34.928743, 138.604742)
+
+   [19/185] Adelaid - Look Good Feel Better SA
+       📍 Multiple locations, Adelaide, SA, 5000, Australia
+       ✗ Failed
+
+   [20/185] Adelaid - SAHMRI Cancer Research
+       📍 North Terrace, Adelaide, SA, 5000, Australia
+       ✓ (-34.921923, 138.589578)
+
+   [21/185] Adelaid - Starlight Children's Foundation SA
+       📍 Women's and Children's Hospital, North Adelaide, SA, 5006, Australia
+       ✗ Failed
+
+   [22/185] Adelaid - Childhood Cancer Association
+       📍 North Adelaide, Adelaide, SA, 5006, Australia
+       ✓ (-34.908501, 138.595350)
+
+   [23/185] Adelaid - McGrath Breast Care Nurse (RAH)
+       📍 Port Road, Adelaide, SA, 5000, Australia
+       ✓ (-34.908463, 138.576481)
+
+   [24/185] Adelaid - McGrath Breast Care Nurse (Flinders)
+       📍 Flinders Drive, Bedford Park, SA, 5042, Australia
+       ✓ (-35.020584, 138.567596)
+
+   [25/185] Adelaid - McGrath Breast Care Nurse (Lyell McEwin)
+       📍 Haydown Road, Elizabeth Vale, SA, 5112, Australia
+       ✓ (-34.748766, 138.666673)
+
+   [26/185] Hobart - Royal Hobart Hospital Cancer Centre
+       📍 Liverpool Street, Hobart, TAS, 7000, Australia
+       ✓ (-42.884806, 147.323330)
+
+   [27/185] Hobart - Launceston General Hospital W.P. Holman Clini
+       📍 274-280 Charles Street, Launceston, TAS, 7250, Australia
+       ✓ (-41.443196, 147.141339)
+
+   [28/185] Hobart - North West Cancer Centre
+       📍 Brickport Road, Burnie, TAS, 7320, Australia
+       ✓ (-41.053634, 145.883667)
+
+   [29/185] Hobart - Cancer Council Support Centre (Hobart)
+       📍 15 Princes Street, Sandy Bay, TAS, 7005, Australia
+       ✓ (-42.896107, 147.327415)
+
+   [30/185] Hobart - Cancer Council Support Centre (Launceston)
+       📍 69-71 Howick Street, South Launceston, TAS, 7250, Australia
+       ✓ (-41.449902, 147.138979)
+
+   [31/185] Hobart - Cancer Council Support Centre (Devonport)
+       📍 45 Best Street, Devonport, TAS, 7310, Australia
+       ✓ (-41.177223, 146.352280)
+
+   [32/185] Hobart - Transport2Treatment (t2t)
+       📍 Statewide service, Tasmania, TAS, Australia
+       ✗ Failed
+
+   [33/185] Hobart - J.W. Whittle Palliative Care Unit
+       📍 90 Davey Street, Hobart, TAS, 7000, Australia
+       ✓ (-42.890311, 147.322153)
+
+   [34/185] Hobart - Specialist Palliative Care Service (Statewide
+       📍 Multiple locations, Tasmania, TAS, Australia
+       ✗ Failed
+
+   [35/185] Hobart - Leukaemia Foundation Hobart
+       📍 34 Collins Street, Hobart, TAS, 7000, Australia
+       ✓ (-42.884114, 147.326363)
+
+   [36/185] Hobart - Leukaemia Foundation Launceston
+       📍 67-71 Howick Street, Launceston, TAS, 7250, Australia
+       ✓ (-41.449902, 147.138979)
+
+   [37/185] Hobart - CanTeen Tasmania
+       📍 146 Harrington Street, Hobart, TAS, 7000, Australia
+       ✓ (-42.883243, 147.323100)
+
+   [38/185] Hobart - Redkite Tasmania
+       📍 National service, Tasmania, TAS, Australia
+       ✗ Failed
+
+   [39/185] Hobart - Camp Quality Tasmania
+       📍 National service, Tasmania, TAS, Australia
+       ✗ Failed
+
+   [40/185] Hobart - BCNA Tasmania
+       📍 National organization, Tasmania, TAS, Australia
+       ✗ Failed
+
+   [41/185] Hobart - Look Good Feel Better Tasmania
+       📍 Workshop locations vary, Tasmania, TAS, Australia
+       ✗ Failed
+
+   [42/185] Hobart - Marillac House Hobart
+       📍 53-55 Davey Street, Hobart, TAS, 7000, Australia
+       ✓ (-42.890311, 147.322153)
+
+   [43/185] Hobart - Marillac House Launceston
+       📍 123-125 Brisbane Street, Launceston, TAS, 7250, Australia
+       ✓ (-41.436830, 147.139685)
+
+   [44/185] Hobart - McGrath Breast Care Nurse (South)
+       📍 Royal Hobart Hospital, Hobart, TAS, 7000, Australia
+       ✓ (-42.879601, 147.329854)
+
+   [45/185] Hobart - McGrath Breast Care Nurse (North)
+       📍 Launceston General Hospital, Launceston, TAS, 7250, Australia
+       ✓ (-41.446986, 147.141643)
+
+   [46/185] Hobart - McGrath Breast Care Nurse (North-West)
+       📍 North West Regional Hospital, Burnie, TAS, 7320, Australia
+       ✓ (-41.047102, 145.881160)
+
+   [47/185] Melbourne - Peter MacCallum Cancer Centre
+       📍 305 Grattan Street, Melbourne, VIC, 3004, Australia
+       ✓ (-37.799927, 144.956215)
+
+   [48/185] Melbourne - Victorian Comprehensive Cancer Centre (VCCC)
+       📍 305 Grattan Street, Melbourne, VIC, 3004, Australia
+       ✓ (-37.799927, 144.956215)
+
+   [49/185] Melbourne - Royal Melbourne Hospital Cancer Services
+       📍 300 Grattan Street, Parkville, VIC, 3050, Australia
+       ✓ (-37.798660, 144.956424)
+
+   [50/185] Melbourne - Olivia Newton-John Cancer Wellness & Research
+       📍 145 Studley Road, Heidelberg, VIC, 3084, Australia
+       ✓ (-37.756561, 145.058657)
+
+   [51/185] Melbourne - Alfred Cancer Services
+       📍 55 Commercial Road, Melbourne, VIC, 3004, Australia
+       ✓ (-37.846119, 144.982729)
+
+   [52/185] Melbourne - Monash Cancer Centre
+       📍 823-865 Centre Road, Bentleigh East, VIC, 3165, Australia
+       ✓ (-37.920972, 145.063908)
+
+   [53/185] Melbourne - St Vincent's Hospital Cancer Centre
+       📍 41 Victoria Parade, Fitzroy, VIC, 3065, Australia
+       ✓ (-37.807094, 144.974685)
+
+   [54/185] Melbourne - Eastern Health Cancer Services
+       📍 8 Arnold Street, Box Hill, VIC, 3128, Australia
+       ✓ (-37.813838, 145.118542)
+
+   [55/185] Melbourne - Peter Mac Box Hill Campus
+       📍 1 Arnold Street, Box Hill, VIC, 3128, Australia
+       ✓ (-37.814732, 145.119267)
+
+   [56/185] Melbourne - Austin Hospital Cancer Services
+       📍 145 Studley Road, Heidelberg, VIC, 3084, Australia
+       ✓ (-37.756561, 145.058657)
+
+   [57/185] Melbourne - Western Health Cancer Services
+       📍 176 Furlong Road, St Albans, VIC, 3021, Australia
+       ✓ (-37.758836, 144.817390)
+
+   [58/185] Melbourne - Cancer Council Victoria
+       📍 615 St Kilda Road, Melbourne, VIC, 3004, Australia
+       ✓ (-37.852185, 144.982048)
+
+   [59/185] Melbourne - Leukaemia Foundation Victoria
+       📍 40 Barry Street, Carlton, VIC, 3053, Australia
+       ✓ (-37.803150, 144.960074)
+
+   [60/185] Melbourne - CanTeen Victoria
+       📍 Level 2/210 Bourke Street, Melbourne, VIC, 3000, Australia
+       ✗ Failed
+
+   [61/185] Melbourne - BCNA (Breast Cancer Network Australia)
+       📍 National organization, Melbourne, VIC, Australia
+       ✗ Failed
+
+   [62/185] Melbourne - Look Good Feel Better Victoria
+       📍 Multiple locations, Melbourne, VIC, Australia
+       ✗ Failed
+
+   [63/185] Melbourne - Peter Mac Wellbeing Centre
+       📍 Level 1, 305 Grattan Street, Melbourne, VIC, 3004, Australia
+       ✗ Failed
+
+   [64/185] Melbourne - ONJ Wellness Centre
+       📍 145 Studley Road, Heidelberg, VIC, 3084, Australia
+       ✓ (-37.756561, 145.058657)
+
+   [65/185] Melbourne - BMDI Rotary House
+       📍 4-12 Blackwood Street, North Melbourne, VIC, 3051, Australia
+       ✓ (-37.801910, 144.954747)
+
+   [66/185] Melbourne - Victorian Adolescent & Young Adult Cancer Ser
+       📍 Based at Peter Mac, Melbourne, VIC, 3004, Australia
+       ✗ Failed
+
+   [67/185] Melbourne - Palliative Care Victoria
+       📍 Statewide organization, Melbourne, VIC, Australia
+       ✗ Failed
+
+   [68/185] Melbourne - Victorian Cancer Registry
+       📍 615 St Kilda Road, Melbourne, VIC, 3004, Australia
+       ✓ (-37.852185, 144.982048)
+
+   [69/185] Melbourne - Parkville Familial Cancer Centre
+       📍 300 Grattan Street, Parkville, VIC, 3050, Australia
+       ✓ (-37.798660, 144.956424)
+
+   [70/185] Melbourne - Austin Health Familial Cancer Clinic
+       📍 145 Studley Road, Heidelberg, VIC, 3084, Australia
+       ✓ (-37.756561, 145.058657)
+
+   [71/185] Melbourne - Monash Health Familial Cancer Centre
+       📍 246 Clayton Road, Clayton, VIC, 3168, Australia
+       ✓ (-37.920823, 145.122443)
+
+   [72/185] Melbourne - The Alfred Radiation Oncology
+       📍 55 Commercial Road, Melbourne, VIC, 3004, Australia
+       ✓ (-37.846119, 144.982729)
+
+   [73/185] Melbourne - McGrath Breast Care Nurse (Peter Mac)
+       📍 305 Grattan Street, Melbourne, VIC, 3004, Australia
+       ✓ (-37.799927, 144.956215)
+
+   [74/185] Melbourne - McGrath Breast Care Nurse (The Alfred)
+       📍 55 Commercial Road, Melbourne, VIC, 3004, Australia
+       ✓ (-37.846119, 144.982729)
+
+   [75/185] Melbourne - McGrath Breast Care Nurse (Austin Health)
+       📍 145 Studley Road, Heidelberg, VIC, 3084, Australia
+       ✓ (-37.756561, 145.058657)
+
+   [76/185] Melbourne - McGrath Breast Care Nurse (Monash Health)
+       📍 246 Clayton Road, Clayton, VIC, 3168, Australia
+       ✓ (-37.920823, 145.122443)
+
+   [77/185] Melbourne - McGrath Breast Care Nurse (Eastern Health)
+       📍 8 Arnold Street, Box Hill, VIC, 3128, Australia
+       ✓ (-37.813838, 145.118542)
+
+   [78/185] Melbourne - McGrath Breast Care Nurse (St Vincent's)
+       📍 41 Victoria Parade, Fitzroy, VIC, 3065, Australia
+       ✓ (-37.807094, 144.974685)
+
+   [79/185] Melbourne - McGrath Breast Care Nurse (Western Health)
+       📍 176 Furlong Road, St Albans, VIC, 3021, Australia
+       ✓ (-37.758836, 144.817390)
+
+   [80/185] Sydney - Chris O'Brien Lifehouse
+       📍 119-143 Missenden Road, Camperdown, NSW, 2050, Australia
+       ✓ (-33.889715, 151.182153)
+
+   [81/185] Sydney - Royal Prince Alfred Hospital Cancer Services
+       📍 Missenden Road, Camperdown, NSW, 2050, Australia
+       ✓ (-33.889715, 151.182153)
+
+   [82/185] Sydney - Prince of Wales Hospital Nelune Cancer Centre
+       📍 High Street, Randwick, NSW, 2031, Australia
+       ✓ (-33.916484, 151.235716)
+
+   [83/185] Sydney - Liverpool Cancer Therapy Centre
+       📍 Elizabeth Street, Liverpool, NSW, 2170, Australia
+       ✓ (-33.920957, 150.931850)
+
+   [84/185] Sydney - Westmead Hospital Cancer Centre
+       📍 Cnr Darcy and Hawkesbury Rds, Westmead, NSW, 2145, Australia
+       ✗ Failed
+
+   [85/185] Sydney - Nepean Hospital Cancer & Wellness Centre
+       📍 Cnr Great Western Hwy and Somerset St, Kingswood, NSW, 2747, Australia
+       ✗ Failed
+
+   [86/185] Sydney - St Vincent's Hospital Kinghorn Cancer Centre
+       📍 390 Victoria Street, Darlinghurst, NSW, 2010, Australia
+       ✓ (-33.880122, 151.221162)
+
+   [87/185] Sydney - St George Hospital Cancer Care Centre
+       📍 Gray Street, Kogarah, NSW, 2217, Australia
+       ✓ (-33.968277, 151.133400)
+
+   [88/185] Sydney - Concord Cancer Centre
+       📍 Hospital Road, Concord, NSW, 2139, Australia
+       ✓ (-33.839677, 151.088317)
+
+   [89/185] Sydney - Royal North Shore Hospital Cancer Centre
+       📍 Reserve Road, St Leonards, NSW, 2065, Australia
+       ✓ (-33.822239, 151.191376)
+
+   [90/185] Sydney - Bankstown-Lidcombe Hospital Cancer Centre
+       📍 68 Eldridge Road, Bankstown, NSW, 2200, Australia
+       ✓ (-33.931954, 151.021276)
+
+   [91/185] Sydney - Blacktown Cancer & Haematology Centre
+       📍 18 Blacktown Road, Blacktown, NSW, 2148, Australia
+       ✓ (-33.778434, 150.920228)
+
+   [92/185] Sydney - Campbelltown Hospital Macarthur Cancer Centre
+       📍 Therry Road, Campbelltown, NSW, 2560, Australia
+       ✓ (-34.079949, 150.800456)
+
+   [93/185] Sydney - Cancer Council NSW Information & Support
+       📍 153 Dowling Street, Woolloomooloo, NSW, 2011, Australia
+       ✓ (-33.871314, 151.221143)
+
+   [94/185] Sydney - Cancer Council NSW Parramatta
+       📍 75 George Street, Parramatta, NSW, 2150, Australia
+       ✓ (-33.813774, 151.004350)
+
+   [95/185] Sydney - Chris O'Brien Lifehouse LivingRoom
+       📍 119-143 Missenden Road, Camperdown, NSW, 2050, Australia
+       ✓ (-33.889715, 151.182153)
+
+   [96/185] Sydney - CanRevive Sydney City Centre
+       📍 Level 4, 741 George Street, Haymarket, NSW, 2000, Australia
+       ✗ Failed
+
+   [97/185] Sydney - CanRevive Northern Sydney
+       📍 65 Archer Street, Chatswood, NSW, 2067, Australia
+       ✓ (-33.796334, 151.186063)
+
+   [98/185] Sydney - CanRevive Southern Sydney
+       📍 8 Park Road, Hurstville, NSW, 2217, Australia
+       ✓ (-33.967303, 151.106497)
+
+   [99/185] Sydney - Look Good Feel Better Sydney
+       📍 100+ venues across Sydney, Various, NSW, Australia
+       ✗ Failed
+
+   [100/185] Sydney - Dragons Abreast Sydney
+       📍 Black Wattle Bay, Pyrmont, NSW, 2009, Australia
+       ✗ Failed
+
+   [101/185] Sydney - Leukaemia Foundation Sydney
+       📍 Services across Sydney, Various, NSW, Australia
+       ✗ Failed
+
+   [102/185] Sydney - CanTeen Youth Cancer Service (POWH)
+       📍 Prince of Wales Hospital, Randwick, NSW, 2031, Australia
+       ✓ (-33.918454, 151.239023)
+
+   [103/185] Sydney - CanTeen Youth Cancer Service (Westmead)
+       📍 Westmead Hospital, Westmead, NSW, 2145, Australia
+       ✓ (-33.802788, 150.987090)
+
+   [104/185] Sydney - CanTeen Youth Cancer Service (RPA/Lifehouse)
+       📍 RPA Hospital/Chris O'Brien Lifehouse, Camperdown, NSW, 2050, Australia
+       ✗ Failed
+
+   [105/185] Sydney - Cancer Wellness Support Penrith
+       📍 Penrith Valley Centre, Penrith, NSW, 2750, Australia
+       ✓ (-33.754535, 150.734903)
+
+   [106/185] Sydney - Sanadi Foundation Arabic Support
+       📍 Sydney-based services, Various, NSW, Australia
+       ✗ Failed
+
+   [107/185] Sydney - Sutherland Shire Cancer Support Group
+       📍 23 Kiora Road, Miranda, NSW, 2228, Australia
+       ✓ (-34.034518, 151.102127)
+
+   [108/185] Sydney - Sutherland Breast Cancer Support
+       📍 57 Manchester Rd, Gymea, NSW, 2227, Australia
+       ✓ (-34.036707, 151.088302)
+
+   [109/185] Sydney - Macquarie University Hospital Cancer Services
+       📍 3 Technology Place, Macquarie Park, NSW, 2109, Australia
+       ✓ (-33.773821, 151.118002)
+
+   [110/185] Sydney - McGrath Breast Care Nurse (Lifehouse/RPA)
+       📍 119-143 Missenden Road, Camperdown, NSW, 2050, Australia
+       ✓ (-33.889715, 151.182153)
+
+   [111/185] Sydney - McGrath Breast Care Nurse (POWH)
+       📍 High Street, Randwick, NSW, 2031, Australia
+       ✓ (-33.916484, 151.235716)
+
+   [112/185] Sydney - McGrath Breast Care Nurse (Liverpool)
+       📍 Elizabeth Street, Liverpool, NSW, 2170, Australia
+       ✓ (-33.920957, 150.931850)
+
+   [113/185] Sydney - McGrath Breast Care Nurse (Westmead)
+       📍 Cnr Darcy and Hawkesbury Rds, Westmead, NSW, 2145, Australia
+       ✗ Failed
+
+   [114/185] Sydney - McGrath Breast Care Nurse (Nepean)
+       📍 Cnr Great Western Hwy and Somerset St, Kingswood, NSW, 2747, Australia
+       ✗ Failed
+
+   [115/185] Brisbane - Cancer Care Services (RBWH)
+       📍 Butterfield Street, Herston, QLD, 4006, Australia
+       ✓ (-27.444591, 153.018442)
+
+   [116/185] Brisbane - PA Hospital Cancer Services
+       📍 199 Ipswich Road, Woolloongabba, QLD, 4102, Australia
+       ✓ (-27.498792, 153.032869)
+
+   [117/185] Brisbane - PA Cancer Wellness Initiative
+       📍 199 Ipswich Road, Woolloongabba, QLD, 4102, Australia
+       ✓ (-27.498792, 153.032869)
+
+   [118/185] Brisbane - Mater Cancer Care Centre
+       📍 Raymond Terrace, South Brisbane, QLD, 4101, Australia
+       ✓ (-27.484084, 153.025650)
+
+   [119/185] Brisbane - QEII Hospital Cancer Services
+       📍 Cnr Kessels and Troughton Rds, Coopers Plains, QLD, 4108, Australia
+       ✗ Failed
+
+   [120/185] Brisbane - Logan Hospital Cancer Services
+       📍 Cnr Armstrong and Loganlea Rds, Meadowbrook, QLD, 4131, Australia
+       ✗ Failed
+
+   [121/185] Brisbane - Redcliffe Hospital Cancer Services
+       📍 Anzac Avenue, Redcliffe, QLD, 4020, Australia
+       ✓ (-27.229811, 153.107401)
+
+   [122/185] Brisbane - Cancer Council Queensland
+       📍 553 Gregory Terrace, Fortitude Valley, QLD, 4006, Australia
+       ✓ (-27.452541, 153.029907)
+
+   [123/185] Brisbane - ESA Blood Cancer Centre
+       📍 41 Peter Doherty Street, Dutton Park, QLD, 4102, Australia
+       ✓ (-27.496775, 153.030426)
+
+   [124/185] Brisbane - Phillip Desbrow Blood Cancer Centre
+       📍 Near RBWH, Herston, QLD, 4006, Australia
+       ✗ Failed
+
+   [125/185] Brisbane - Clem Jones-Sunland Blood Cancer Centre
+       📍 170 Middle Street, Coopers Plains, QLD, 4108, Australia
+       ✓ (-27.560599, 153.049172)
+
+   [126/185] Brisbane - Queensland Youth Cancer Service
+       📍 You Can Centre, RBWH, Herston, QLD, 4006, Australia
+       ✗ Failed
+
+   [127/185] Brisbane - CanTeen Queensland
+       📍 West End, West End, QLD, 4101, Australia
+       ✓ (-27.483682, 153.003217)
+
+   [128/185] Brisbane - Camp Quality Queensland
+       📍 Bowen Hills, Bowen Hills, QLD, 4006, Australia
+       ✓ (-27.445232, 153.037599)
+
+   [129/185] Brisbane - Redkite Queensland
+       📍 Brisbane Office, Brisbane, QLD, 4000, Australia
+       ✓ (-27.471447, 153.029449)
+
+   [130/185] Brisbane - Childhood Cancer Support
+       📍 Herston, Herston, QLD, 4006, Australia
+       ✓ (-27.446790, 153.022791)
+
+   [131/185] Brisbane - UQ Psychology Clinic
+       📍 St Lucia Campus, St Lucia, QLD, 4072, Australia
+       ✗ Failed
+
+   [132/185] Brisbane - QUT Psychology and Counselling Clinic
+       📍 Kelvin Grove, Kelvin Grove, QLD, 4059, Australia
+       ✓ (-27.449426, 153.011342)
+
+   [133/185] Brisbane - Griffith Psychology Clinic Mt Gravatt
+       📍 176 Messines Ridge Road, Mt Gravatt, QLD, 4122, Australia
+       ✓ (-27.543357, 153.065447)
+
+   [134/185] Brisbane - Brisbane Head and Neck Cancer Support Group
+       📍 Meeting locations vary, Brisbane, QLD, 4000, Australia
+       ✗ Failed
+
+   [135/185] Brisbane - Brisbane Brain Tumour Support Group
+       📍 Brisbane City Library, Toowong, Toowong, QLD, 4066, Australia
+       ✗ Failed
+
+   [136/185] Brisbane - Look Good Feel Better Queensland
+       📍 Multiple locations, Brisbane, QLD, 4000, Australia
+       ✗ Failed
+
+   [137/185] Brisbane - PA Hospital Lymphoedema Service
+       📍 199 Ipswich Road, Woolloongabba, QLD, 4102, Australia
+       ✓ (-27.498792, 153.032869)
+
+   [138/185] Brisbane - Ronald McDonald House Brisbane
+       📍 Herston, Herston, QLD, 4006, Australia
+       ✓ (-27.446790, 153.022791)
+
+   [139/185] Brisbane - McGrath Breast Care Nurse (RBWH)
+       📍 Butterfield Street, Herston, QLD, 4006, Australia
+       ✓ (-27.444591, 153.018442)
+
+   [140/185] Brisbane - McGrath Breast Care Nurse (PA Hospital)
+       📍 199 Ipswich Road, Woolloongabba, QLD, 4102, Australia
+       ✓ (-27.498792, 153.032869)
+
+   [141/185] Brisbane - McGrath Breast Care Nurse (Mater)
+       📍 Raymond Terrace, South Brisbane, QLD, 4101, Australia
+       ✓ (-27.484152, 153.026010)
+
+   [142/185] Perth - Sir Charles Gairdner Hospital Comprehensive C
+       📍 Hospital Avenue, DD Block, Nedlands, WA, 6009, Australia
+       ✗ Failed
+
+   [143/185] Perth - Fiona Stanley Hospital State Cancer Centre
+       📍 11 Robin Warren Drive, Murdoch, WA, 6150, Australia
+       ✓ (-32.072758, 115.848616)
+
+   [144/185] Perth - Royal Perth Hospital Medical Oncology Unit
+       📍 197 Wellington Street, Perth, WA, 6000, Australia
+       ✓ (-31.953307, 115.865901)
+
+   [145/185] Perth - Joondalup Health Campus Cancer Care Unit
+       📍 60 Shenton Avenue, Joondalup, WA, 6027, Australia
+       ✓ (-31.738371, 115.770852)
+
+   [146/185] Perth - Perth Children's Hospital Oncology
+       📍 15 Hospital Avenue, Nedlands, WA, 6009, Australia
+       ✓ (-31.967641, 115.816733)
+
+   [147/185] Perth - Cancer Council WA
+       📍 15 Bedbrook Place, Shenton Park, WA, 6008, Australia
+       ✓ (-31.955560, 115.799820)
+
+   [148/185] Perth - Crawford Lodge
+       📍 55 Monash Avenue, Nedlands, WA, 6009, Australia
+       ✓ (-31.970545, 115.817612)
+
+   [149/185] Perth - Milroy Lodge
+       📍 15 Bedbrook Place, Shenton Park, WA, 6008, Australia
+       ✓ (-31.955560, 115.799820)
+
+   [150/185] Perth - Leukaemia Foundation WA
+       📍 4 Baumea Way, Innaloo, WA, 6018, Australia
+       ✓ (-31.895093, 115.802521)
+
+   [151/185] Perth - Stirling Cross Blood Cancer Centre
+       📍 4 Baumea Way, Innaloo, WA, 6018, Australia
+       ✓ (-31.895093, 115.802521)
+
+   [152/185] Perth - Solaris Cancer Care Cottesloe
+       📍 80 Railway Street, Cottesloe, WA, 6011, Australia
+       ✓ (-31.997934, 115.761077)
+
+   [153/185] Perth - Solaris Cancer Care SCGH
+       📍 Sir Charles Gairdner Hospital, DD Block, Nedlands, WA, 6009, Australia
+       ✗ Failed
+
+   [154/185] Perth - CanTeen WA Youth Cancer Service
+       📍 SCGH, WA Comprehensive Cancer Centre, Nedlands, WA, 6009, Australia
+       ✗ Failed
+
+   [155/185] Perth - Camp Quality WA
+       📍 Perth region, Perth, WA, 6000, Australia
+       ✗ Failed
+
+   [156/185] Perth - Redkite WA
+       📍 Perth Children's Hospital, Nedlands, WA, 6009, Australia
+       ✓ (-31.969325, 115.817086)
+
+   [157/185] Perth - Breast Cancer Care WA
+       📍 80 Railway Street, Cottesloe, WA, 6011, Australia
+       ✓ (-31.997934, 115.761077)
+
+   [158/185] Perth - Breast Cancer Research Centre WA
+       📍 Hollywood Consulting Centre, Nedlands, WA, 6009, Australia
+       ✓ (-31.968488, 115.810030)
+
+   [159/185] Perth - Look Good Feel Better WA
+       📍 Various locations, Perth, WA, 6000, Australia
+       ✗ Failed
+
+   [160/185] Perth - Curtin Adult Psychology Clinic
+       📍 Building 404, Kent Street, Bentley, WA, 6102, Australia
+       ✗ Failed
+
+   [161/185] Perth - Murdoch Psychology Clinic
+       📍 Building 440, 90 South Street, Murdoch, WA, 6150, Australia
+       ✗ Failed
+
+   [162/185] Perth - Silver Chain Palliative Care
+       📍 6 Sundercombe Street, Osborne Park, WA, 6017, Australia
+       ✓ (-31.905385, 115.811408)
+
+   [163/185] Perth - Lions Cancer Institute
+       📍 Mobile service, Perth, WA, 6000, Australia
+       ✗ Failed
+
+   [164/185] Perth - Carers WA
+       📍 182 Lord Street, Perth, WA, 6000, Australia
+       ✓ (-31.951099, 115.868245)
+
+   [165/185] Perth - Make-A-Wish Australia WA
+       📍 Unit 1, 517 Wanneroo Road, Balcatta, WA, 6021, Australia
+       ✗ Failed
+
+   [166/185] Perth - Starlight Children's Foundation WA
+       📍 Perth Children's Hospital, Nedlands, WA, 6009, Australia
+       ✓ (-31.969325, 115.817086)
+
+   [167/185] Perth - McGrath Breast Care Nurse (SCGH)
+       📍 Hospital Avenue, Nedlands, WA, 6009, Australia
+       ✓ (-31.967641, 115.816733)
+
+   [168/185] Perth - McGrath Breast Care Nurse (FSH)
+       📍 11 Robin Warren Drive, Murdoch, WA, 6150, Australia
+       ✓ (-32.072758, 115.848616)
+
+   [169/185] Perth - McGrath Breast Care Nurse (Joondalup)
+       📍 60 Shenton Avenue, Joondalup, WA, 6027, Australia
+       ✓ (-31.738371, 115.770852)
+
+   [170/185] Darwin - Alan Walker Cancer Care Centre
+       📍 105 Rocklands Drive, Tiwi, NT, 810, Australia
+       ✓ (-12.359134, 130.882866)
+
+   [171/185] Darwin - Royal Darwin Hospital
+       📍 105 Rocklands Drive, Tiwi, NT, 810, Australia
+       ✓ (-12.359134, 130.882866)
+
+   [172/185] Darwin - Alice Springs Hospital Cancer Services
+       📍 Gap Road, Alice Springs, NT, 870, Australia
+       ✓ (-23.705579, 133.879669)
+
+   [173/185] Darwin - Barbara James House
+       📍 Near Royal Darwin Hospital, Darwin, NT, 800, Australia
+       ✗ Failed
+
+   [174/185] Darwin - Cancer Council NT
+       📍 Tiwi, Tiwi, NT, 810, Australia
+       ✓ (-12.364392, 130.879084)
+
+   [175/185] Darwin - Leukaemia Foundation SA/NT
+       📍 Adelaide-based, Darwin, NT, 800, Australia
+       ✗ Failed
+
+   [176/185] Darwin - CanTeen Youth Cancer Service NT
+       📍 Royal Darwin Hospital, Tiwi, NT, 810, Australia
+       ✓ (-12.354859, 130.882668)
+
+   [177/185] Darwin - Camp Quality NT
+       📍 National service, Darwin, NT, 800, Australia
+       ✗ Failed
+
+   [178/185] Darwin - Redkite NT
+       📍 National service, Darwin, NT, 800, Australia
+       ✗ Failed
+
+   [179/185] Darwin - Territory Palliative Care (Top End)
+       📍 Royal Darwin Hospital campus, Tiwi, NT, 810, Australia
+       ✗ Failed
+
+   [180/185] Darwin - Danila Dilba Health Service
+       📍 7 clinics Greater Darwin, Darwin, NT, 800, Australia
+       ✗ Failed
+
+   [181/185] Darwin - Aboriginal Interpreter Service
+       📍 Royal Darwin Hospital, Tiwi, NT, 810, Australia
+       ✓ (-12.354859, 130.882668)
+
+   [182/185] Darwin - BreastScreen NT
+       📍 Darwin and Alice Springs, Darwin, NT, 800, Australia
+       ✗ Failed
+
+   [183/185] Darwin - Carers NT
+       📍 59 Smith Street, Darwin, NT, 800, Australia
+       ✓ (-12.462423, 130.840703)
+
+   [184/185] Darwin - McGrath Breast Care Nurse (Top End)
+       📍 Royal Darwin Hospital, Tiwi, NT, 810, Australia
+       ✓ (-12.354859, 130.882668)
+
+   [185/185] Darwin - McGrath Breast Care Nurse (Central Australia)
+       📍 Alice Springs Hospital, Alice Springs, NT, 870, Australia
+       ✓ (-23.705877, 133.878011)
+
+
+4. Saving geocoded data...
+   ✓ CSV: All_Services_Geocoded_Complete.csv
+   ✓ JSON: data/all_services_geocoded_complete.json
+   ✓ Excel: Data_final_cleaned_geocoded.xlsx
+
+======================================================================
+📊 GEOCODING SUMMARY
+======================================================================
+Total services:        185
+Successfully geocoded: 131
+Failed to geocode:     54
+Success rate:          70.8%
+
+📍 Results by city:
+   Adelaid          17/ 25 geocoded (68%)
+   Hobart           15/ 21 geocoded (71%)
+   Melbourne        27/ 33 geocoded (82%)
+   Sydney           25/ 35 geocoded (71%)
+   Brisbane         19/ 27 geocoded (70%)
+   Perth            19/ 28 geocoded (68%)
+   Darwin            9/ 16 geocoded (56%)
+
+⚠️  54 addresses failed - may need manual review
+   - [Adelaid] Youth Cancer Service SA/NT
+   - [Adelaid] Flinders Cancer Wellness Centre
+   - [Adelaid] Redkite SA
+   - [Adelaid] Under Our Roof Accommodation
+   - [Adelaid] UniSA Psychology Clinic
+   - [Adelaid] Flinders University Psychology Clinic
+   - [Adelaid] Look Good Feel Better SA
+   - [Adelaid] Starlight Children's Foundation SA
+   - [Hobart] Transport2Treatment (t2t)
+   - [Hobart] Specialist Palliative Care Service (Statewide)
+   - [Hobart] Redkite Tasmania
+   - [Hobart] Camp Quality Tasmania
+   - [Hobart] BCNA Tasmania
+   - [Hobart] Look Good Feel Better Tasmania
+   - [Melbourne] CanTeen Victoria
+   - [Melbourne] BCNA (Breast Cancer Network Australia)
+   - [Melbourne] Look Good Feel Better Victoria
+   - [Melbourne] Peter Mac Wellbeing Centre
+   - [Melbourne] Victorian Adolescent & Young Adult Cancer Service
+   - [Melbourne] Palliative Care Victoria
+   - [Sydney] Westmead Hospital Cancer Centre
+   - [Sydney] Nepean Hospital Cancer & Wellness Centre
+   - [Sydney] CanRevive Sydney City Centre
+   - [Sydney] Look Good Feel Better Sydney
+   - [Sydney] Dragons Abreast Sydney
+   - [Sydney] Leukaemia Foundation Sydney
+   - [Sydney] CanTeen Youth Cancer Service (RPA/Lifehouse)
+   - [Sydney] Sanadi Foundation Arabic Support
+   - [Sydney] McGrath Breast Care Nurse (Westmead)
+   - [Sydney] McGrath Breast Care Nurse (Nepean)
+   - [Brisbane] QEII Hospital Cancer Services
+   - [Brisbane] Logan Hospital Cancer Services
+   - [Brisbane] Phillip Desbrow Blood Cancer Centre
+   - [Brisbane] Queensland Youth Cancer Service
+   - [Brisbane] UQ Psychology Clinic
+   - [Brisbane] Brisbane Head and Neck Cancer Support Group
+   - [Brisbane] Brisbane Brain Tumour Support Group
+   - [Brisbane] Look Good Feel Better Queensland
+   - [Perth] Sir Charles Gairdner Hospital Comprehensive Cancer Centre
+   - [Perth] Solaris Cancer Care SCGH
+   - [Perth] CanTeen WA Youth Cancer Service
+   - [Perth] Camp Quality WA
+   - [Perth] Look Good Feel Better WA
+   - [Perth] Curtin Adult Psychology Clinic
+   - [Perth] Murdoch Psychology Clinic
+   - [Perth] Lions Cancer Institute
+   - [Perth] Make-A-Wish Australia WA
+   - [Darwin] Barbara James House
+   - [Darwin] Leukaemia Foundation SA/NT
+   - [Darwin] Camp Quality NT
+   - [Darwin] Redkite NT
+   - [Darwin] Territory Palliative Care (Top End)
+   - [Darwin] Danila Dilba Health Service
+   - [Darwin] BreastScreen NT
+
+✅ Geocoding complete!
+
+📁 Output files:
+   - All_Services_Geocoded_Complete.csv (185 records, ready for analysis)
+   - data/all_services_geocoded_complete.json (for web application)
+   - Data_final_cleaned_geocoded.xlsx (with all sheets + combined)
